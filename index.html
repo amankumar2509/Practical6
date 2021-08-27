@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .box
+        {
+            width: 360px;
+            height: 350px;
+            padding: 20px;
+            margin-left: 20px;
+            overflow: hidden;
+            border: 4px solid rgb(247, 245, 172);
+            text-align: justify;
+            text-align: center;
+        }
+        
+        #container{
+            display: inline-flex;
+            margin-top: 15px;
+        }
+        .box img{
+            width: 100%;
+            height: 150px;
+           
+            border-radius: 20px;
+        }
+        #box1 img{
+            height: 150px;
+            
+        }
+        .mybutton{
+             
+             text-decoration: none;
+             color: white;
+             display: block;
+             font-family: Arial;
+             margin-top: 10px;
+             background-color: red;
+             padding: 10px 20px;
+             border-radius: 10px;
+               }
+        .mybutton:hover{
+            background-color: blue;
+        }       
+              
+
+    </style>
+</head>
+<body style="background-color: rgb(253, 253, 249)">
+
+    <h1 style="text-align: center; color: silver;">Practical-6: Create following layout  using CSS properties </h1>
+    <div id="container">
+    <div class="box"   id="box1">
+        <div>
+            <img src="./image/html2.jpg" alt="HTML">
+        </div>
+        <h2> Introduction to HTML</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus recusandae iste totam quidem illum architecto obcaecati repudiandae  </p>
+        <div class="image" style="text-align: center;"><a href="https://amankumar2509.github.io/HTML/" class="mybutton">Read More</a></div>
+    </div>
+    <div class="box" id="box2">
+        <div><img src="./image/CSS2.png" alt=""></div>
+        <h2> Introduction to CSS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus recusandae iste totam quidem illum architecto obcaecati  </p>
+        <div class="image" style="text-align: center;"><a href="https://amankumar2509.github.io/CSS/" class="mybutton">Read More</a></div>
+    </div>
+    <div class="box" id="box3">
+        <div><img src="./image/Jquery.png" alt="Jquery"></div>
+        <h2> Introduction to Javascript</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus recusandae iste totam quidem illum architecto obcaecati   </p>
+        <div class="image" style="text-align: center;"><a href="https://amankumar2509.github.io/Javascript/" class="mybutton">Read More</a></div>
+    </div>
+    <div class="box" id="box4">
+        <div><img src="./image/bootstrap.png" alt=""></div>
+        <h2> Introduction to Bootstrap</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus recusandae iste totam quidem illum architecto obcaecati  </p>
+        <div class="image" style="text-align: center;"><a href="https://amankumar2509.github.io/Bootstrap/" class="mybutton">Read More</a></div>
+    </div>
+    </div>
+</body>
+</html>
